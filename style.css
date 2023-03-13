@@ -164,5 +164,24 @@ body {
     cursor: pointer;
 }
 
+/* Estilos para dispositivos de tela grande */
+@media only screen and (min-width: 1200px) {
+    /* Insira seus estilos para dispositivos de tela grande aqui */
+    
+    }
+  
+  
+  /* Estilos para dispositivos de tela média */
+  @media only screen and (max-width: 1199px) and (min-width: 768px) {
+    /* Insira seus estilos para dispositivos de tela média aqui */
+  }
+  
+  /* Estilos para dispositivos de tela pequena */
+  @media only screen and (max-width: 560px) {
+    .caixa-login {
+        width: 100%;
+    }
+    /* Insira seus estilos para dispositivos de tela pequena aqui */
+  }
  
 
