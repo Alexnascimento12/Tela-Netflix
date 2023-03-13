@@ -60,7 +60,7 @@ body {
     background-color: rgb(37, 37, 37);
     color: rgb(128, 128, 128);
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -80,6 +80,9 @@ body {
     color: rgb(128, 128, 128);
     background-color: rgb(37, 37, 37);
     margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+
 
 }
 
@@ -99,7 +102,7 @@ body {
     border: none;
     outline: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(140, 190, 0);
+    background-color: rgb(255, 0, 0);
     cursor: pointer;
 
 }
@@ -161,21 +164,5 @@ body {
     cursor: pointer;
 }
 
-@media only screen and (max-whidth: 600px) {
-
-  .principal1 {
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-  }
-
-   
-body {
-    background-image: none;
-    width: 100vw;
-    height: 100vh;
-}
+ 
 
